@@ -8,10 +8,7 @@ class Player {
         self.name = name
     }
     
-    
-    
-    
-    
+    /// Function to convert what is entered by the user in Int
     func input() -> Int {
         if let strData = readLine(),let intValue = Int(strData){
             return intValue
@@ -20,10 +17,8 @@ class Player {
         }
     }
     
-    
-    
-    // Fonction pour choisir l'action a éfféctuer
-    func ChooseAction() -> Int{
+    /// Function to choose the action to be performed
+    func chooseAction() -> Int{
         var i : Int
         repeat{
             print("Que veux tu faire \(self.name):\n1.Attaque\n2.Soin")
@@ -34,13 +29,9 @@ class Player {
         }while i > 2 || i < 1
         return i
     }
-    
-    
-    
-    
-    
-    // Fonction pour choisir le personnage qui va effectuer l'action
-    func ChooseCharacter() -> Character {
+
+    /// Function to choose the character who will perform the action
+    func chooseCharacter() -> Character {
         var i : Int
         repeat {
             print("\(self.name) choisis ton Personnage :")
@@ -56,18 +47,15 @@ class Player {
                     print("Personnage Mort")
                     i = 0
                 }
-            }else{
+            } else {
                 print("Erreur !! Rentrez un nombre valide uniquement")
             }
         } while i < 1 || i > 3
         return self.character[i-1]
     }
     
-    
-    
-    
-    // Fonction pour choisir le personnage qui subit l'action
-    func ChooseCharacterUndergo() -> Character {
+    /// Function to choose the character who undergoes the action
+    func chooseCharacterUndergo() -> Character {
         var i : Int
         repeat {
             print("Choisis le personnage qui va subir l'action :")
@@ -88,12 +76,4 @@ class Player {
         } while i < 1 || i > 3
         return self.character[i-1]
     }
-    
-    
-    
-    
-    
-    
-    
-    
 }

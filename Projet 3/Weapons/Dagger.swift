@@ -1,6 +1,6 @@
 class Dagger : Weapon {
     init() {
-        super.init(damage: 30)
+        super.init(damage: 80)
         name = "une Dague"
     }
     

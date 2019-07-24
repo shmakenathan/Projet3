@@ -1,6 +1,6 @@
 class DoubleSword : Weapon {
     init() {
-        super.init(damage: 70)
+        super.init(damage: 100)
         name = "les Doubles Epée"
     }
 }
