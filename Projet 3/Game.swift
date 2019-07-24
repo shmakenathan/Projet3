@@ -73,13 +73,13 @@ public class Game {
     /// Function to display the information of each player (character, life, weapon)
     private func displayCharacters(){
         print("Nom Joueur 1 : \(self.player[0].name)\n")
-        print("Perso 1 : \(self.player[0].character[0].name)\tPoints de vie : \(self.player[0].character[0].life)\tArme : \(self.player[0].character[0].weapon.name)\tDégats : \(self.player[0].character[0].weapon.damage)")
-        print("Perso 2 : \(self.player[0].character[1].name)\tPoints de vie : \(self.player[0].character[1].life)\tArme : \(self.player[0].character[1].weapon.name)\tDégats : \(self.player[0].character[1].weapon.damage)")
-        print("Perso 3 : \(self.player[0].character[2].name)\tPoints de vie : \(self.player[0].character[2].life)\tArme : \(self.player[0].character[2].weapon.name)\tDégats : \(self.player[0].character[2].weapon.damage)\n")
+        print("Perso 1 : \(self.player[0].character[0].name)\t❤️ : \(self.player[0].character[0].life)\t🔪 : \(self.player[0].character[0].weapon.name)\t💥 : \(self.player[0].character[0].weapon.damage)")
+        print("Perso 2 : \(self.player[0].character[1].name)\t❤️ : \(self.player[0].character[1].life)\t🔪 : \(self.player[0].character[1].weapon.name)\t💥 : \(self.player[0].character[1].weapon.damage)")
+        print("Perso 3 : \(self.player[0].character[2].name)\t❤️ : \(self.player[0].character[2].life)\t🔪 : \(self.player[0].character[2].weapon.name)\t💥 : \(self.player[0].character[2].weapon.damage)\n")
         print("Nom Joueur 2 : \(self.player[1].name)\n")
-        print("Perso 1 : \(self.player[1].character[0].name)\tPoints de vie : \(self.player[1].character[0].life)\tArme : \(self.player[1].character[0].weapon.name)\tDégats : \(self.player[1].character[0].weapon.damage)")
-        print("Perso 2 : \(self.player[1].character[1].name)\tPoints de vie : \(self.player[1].character[1].life)\tArme : \(self.player[1].character[1].weapon.name)\tDégats : \(self.player[1].character[1].weapon.damage)")
-        print("Perso 3 : \(self.player[1].character[2].name)\tPoints de vie : \(self.player[1].character[2].life)\tArme : \(self.player[1].character[2].weapon.name)\tDégats : \(self.player[1].character[2].weapon.damage)\n")
+        print("Perso 1 : \(self.player[1].character[0].name)\t❤️ : \(self.player[1].character[0].life)\t🔪 : \(self.player[1].character[0].weapon.name)\t💥 : \(self.player[1].character[0].weapon.damage)")
+        print("Perso 2 : \(self.player[1].character[1].name)\t❤️ : \(self.player[1].character[1].life)\t🔪 : \(self.player[1].character[1].weapon.name)\t💥 : \(self.player[1].character[1].weapon.damage)")
+        print("Perso 3 : \(self.player[1].character[2].name)\t❤️ : \(self.player[1].character[2].life)\t🔪 : \(self.player[1].character[2].weapon.name)\t💥 : \(self.player[1].character[2].weapon.damage)\n")
         
     }
     
