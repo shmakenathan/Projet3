@@ -8,7 +8,6 @@ class Character {
         self.weapon = weapon
     }
     
-    
 /// Function allowing a character to attack another
     func attack( character : Character){
         self.chestAppears()
@@ -51,8 +50,5 @@ class Character {
             self.changeWeaponRandom()
         }
     }
-    
-    
-    
     
 }
